@@ -3,7 +3,6 @@
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install openssh-server
-sudo apt-get install git
 sudo apt-get install python3-pip
 git clone https://github.com/odoo/odoo.git -b 11.0 --depth=1 /opt/odoo/
 git clone https://github.com/odoo/enterprise.git -b 11.0 --depth=1 /opt/odoo/enterprise
