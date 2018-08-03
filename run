@@ -21,3 +21,9 @@ sudo pip3 install -r /opt/odoo/doc/requirements.txt #Optional
 sudo pip3 install phonenumbers
 sudo pip3 install pyOpenSSL
 sudo apt-get install postgresql
+sudo apt-get install python3-pypdf2
+sudo apt-get install python3-werkzeug
+sudo apt-get install python3-dateutil
+sudo apt-get install python3-yaml
+sudo apt-get install python3-reportlab
+sudo apt-get install python3-suds
