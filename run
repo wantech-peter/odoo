@@ -1,29 +1,29 @@
 #!/usr/bin/env bash
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install python3-pip
+sudo apt-get install -y python3-pip
 git clone https://github.com/odoo/odoo.git -b 11.0 --depth=1 /opt/odoo/
 git clone https://github.com/odoo/enterprise.git -b 11.0 --depth=1 /opt/odoo/enterprise
-sudo apt-get install npm
-sudo apt-get install node-less
-sudo npm install -g less
-sudo npm install -g less-plugin-clean-css
+sudo apt-get install -y npm
+sudo apt-get install -y node-less
+sudo npm install -y -g less
+sudo npm install -y -g less-plugin-clean-css
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 sudo wget https://downloads.wkhtmltopdf.org/0.12/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb
 sudo dpkg -i wkhtmltox-0.12.1_linux-trusty-amd64.deb
 sudo cp /usr/local/bin/wkhtmltopdf /usr/bin
 sudo cp /usr/local/bin/wkhtmltoimage /usr/bin
-sudo apt-get install libxslt1-dev
-sudo apt-get install libldap2-dev
-sudo apt-get install libsasl2-dev
-sudo pip3 install -r /opt/odoo/requirements.txt
-sudo pip3 install -r /opt/odoo/doc/requirements.txt #Optional
-sudo pip3 install phonenumbers
-sudo pip3 install pyOpenSSL
-sudo apt-get install postgresql
-sudo apt-get install python3-pypdf2
-sudo apt-get install python3-werkzeug
-sudo apt-get install python3-dateutil
-sudo apt-get install python3-yaml
-sudo apt-get install python3-reportlab
-sudo apt-get install python3-suds
+sudo apt-get install -y libxslt1-dev
+sudo apt-get install -y libldap2-dev
+sudo apt-get install -y libsasl2-dev
+sudo pip3 install -y -r /opt/odoo/requirements.txt
+sudo pip3 install -y -r /opt/odoo/doc/requirements.txt #Optional
+sudo pip3 install -y phonenumbers
+sudo pip3 install -y pyOpenSSL
+sudo apt-get install -y postgresql
+sudo apt-get install -y python3-pypdf2
+sudo apt-get install -y python3-werkzeug
+sudo apt-get install -y python3-dateutil
+sudo apt-get install -y python3-yaml
+sudo apt-get install -y python3-reportlab
+sudo apt-get install -y python3-suds
