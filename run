@@ -28,3 +28,5 @@ sudo apt-get install -y python3-yaml
 sudo apt-get install -y python3-reportlab
 sudo apt-get install -y python3-suds
 sudo apt-get -f install
+sudo apt-get install -y fonts-wqy-microhei ttf-wqy-microhei fonts-wqy-zenhei ttf-wqy-zenhei
+sudo fc-cache -f –v
