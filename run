@@ -20,7 +20,6 @@ sudo pip3 install -r /opt/odoo/requirements.txt
 sudo pip3 install -r /opt/odoo/doc/requirements.txt #Optional
 sudo pip3 install phonenumbers
 sudo pip3 install pyOpenSSL
-sudo apt-get install postgresql
 sudo apt-get install python3-pypdf2
 sudo apt-get install python3-werkzeug
 sudo apt-get install python3-dateutil
@@ -29,4 +28,5 @@ sudo apt-get install python3-reportlab
 sudo apt-get install python3-suds
 sudo apt-get -f install
 sudo apt-get install -y fonts-wqy-microhei ttf-wqy-microhei fonts-wqy-zenhei ttf-wqy-zenhei
+sudo apt-get install postgresql
 sudo fc-cache -f –v
