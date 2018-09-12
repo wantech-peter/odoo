@@ -8,3 +8,11 @@ sudo npm install -y -g less
 sudo npm install -y -g less-plugin-clean-css
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 sudo apt-get install postgresql
+sudo wget https://downloads.wkhtmltopdf.org/0.12/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb
+sudo dpkg -i wkhtmltox-0.12.1_linux-trusty-amd64.deb
+sudo cp /usr/local/bin/wkhtmltopdf /usr/bin
+sudo cp /usr/local/bin/wkhtmltoimage /usr/bin
+sudo git clone https://github.com/odoo/odoo.git -b 11.0 --depth=1 /opt/odoo/
+sudo git clone https://github.com/odoo/enterprise.git -b 11.0 --depth=1 /opt/odoo/enterprise
+sudo pip3 install -r /opt/odoo/requirements.txt
+sudo pip3 install -r /opt/odoo/doc/requirements.txt 
