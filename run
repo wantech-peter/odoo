@@ -17,6 +17,7 @@ sudo apt-get install libldap2-dev
 sudo apt-get install libsasl2-dev
 sudo pip3 install phonenumbers
 sudo pip3 install pyOpenSSL
+sudo apt-get -f install
 sudo apt-get install python3-pypdf2
 sudo apt-get install python3-werkzeug
 sudo apt-get install python3-dateutil
