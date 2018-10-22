@@ -29,4 +29,4 @@ sudo git clone https://github.com/odoo/odoo.git -b 11.0 --depth=1 /opt/odoo/
 sudo git clone https://github.com/odoo/enterprise.git -b 11.0 --depth=1 /opt/odoo/enterprise
 sudo pip3 install -r /opt/odoo/requirements.txt
 sudo pip3 install -r /opt/odoo/doc/requirements.txt
-sudo git clone https://github.com/wantech-peter/odooupdate.git /auto/
+sudo git clone https://github.com/wantech-peter/odooupdate.git /auto/wantech/
