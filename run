@@ -30,5 +30,6 @@ sudo git clone https://github.com/odoo/enterprise.git -b 11.0 --depth=1 /opt/odo
 sudo pip3 install -r /opt/odoo/requirements.txt
 sudo pip3 install -r /opt/odoo/doc/requirements.txt
 sudo git clone https://wantech.visualstudio.com/W%20Plus/_git/odoo_wantech_icons /auto/wantech/odooicons/
-sudo mv -fr /auto/wanech/odoo/* /opt/odoo/
-sudo git clone https://github.com/wantech-peter/odooupdate.git /auto/wantech/moduleupdatescript/
+sudo cp -r /auto/wanech/odooicons/addons /opt/odoo/
+sudo cp -r /auto/wanech/odooicons/odoo /opt/odoo/
+sudo git clone https://github.com/wantech-peter/odooupdate.git /auto/wantech/script/
