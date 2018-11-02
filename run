@@ -17,6 +17,8 @@ sudo apt-get install libldap2-dev
 sudo apt-get install libsasl2-dev
 sudo pip3 install phonenumbers
 sudo pip3 install pyOpenSSL
+sudo apt-get install fonts-wqy-microhei ttf-wqy-microhei fonts-wqy-zenhei ttf-wqy-zenhei
+fc-cache -f -v
 sudo apt-get -f install
 sudo apt-get install python3-pypdf2
 sudo apt-get install python3-werkzeug
