@@ -30,6 +30,8 @@ sudo apt-get -f install
 sudo apt-get install python3-lxml
 sudo pip3 install psutil
 sudo pip3 install html2text
+sudo pip3 install passlib
+sudo pip3 install psycopg2
 sudo apt-get install git
 sudo git clone https://github.com/odoo/odoo.git -b 11.0 --depth=1 /opt/odoo/
 sudo pip3 install -r /opt/odoo/requirements.txt
