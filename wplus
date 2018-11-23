@@ -40,9 +40,9 @@ sudo git clone https://github.com/odoo/odoo.git -b 11.0 --depth=1 /wpluserp/ent
 sudo pip3 install -r /wpluserp/ent/requirements.txt
 sudo pip3 install -r /wpluserp/ent/doc/requirements.txt
 sudo git clone https://github.com/odoo/enterprise.git -b 11.0 --depth=1 /wpluserp/ent/enterprise
-sudo git clone https://wantech.visualstudio.com/W%20Plus/_git/odoo_wantech_icons /auto/wantech/odooicons/
-sudo cp -r /auto/wantech/odooicons/addons /wpluserp/ent/
-sudo cp -r /auto/wantech/odooicons/odoo /wpluserp/ent/
+sudo git clone https://wantech.visualstudio.com/W%20Plus/_git/odoo_wantech_customs /auto/wantech/odoo_wantech_customs/
+sudo cp -r /auto/wantech/odoo_wantech_customs/addons /wpluserp/ent/
+sudo cp -r /auto/wantech/odoo_wantech_customs/odoo /wpluserp/ent/
 sudo mkdir /wpluserp/ent/w_clients
 sudo mkdir /wpluserp/ent/w_common
 sudo mkdir /wpluserp/ent/w_config
